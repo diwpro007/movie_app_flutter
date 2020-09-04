@@ -1,4 +1,4 @@
-import 'package:movie_app_flutter/domain/entities/movie_entitiy.dart';
+import 'package:movie_app_flutter/domain/entities/movie_entity.dart';
 
 class MovieModel extends MovieEntity {
   final int id;
