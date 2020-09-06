@@ -5,10 +5,10 @@ import 'package:movie_app_flutter/domain/entities/no_params.dart';
 import 'package:movie_app_flutter/domain/repositories/movie_repository.dart';
 import 'package:movie_app_flutter/domain/usecases/usecase.dart';
 
-class GetComingSoom extends UseCase<List<MovieEntity>, NoParams> {
+class GetComingSoon extends UseCase<List<MovieEntity>, NoParams> {
   final MovieRepository repository;
 
-  GetComingSoom(this.repository);
+  GetComingSoon(this.repository);
 
   @override
   Future<Either<AppError, List<MovieEntity>>> call(NoParams noParams) async {
